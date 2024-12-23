@@ -66,7 +66,7 @@ def generate_error_report(driver):
     print('Error report generated! Provide the above information to the developer for debugging purposes.')
 
 print('Downloading extension...')
-download_crx(extension_id, output_file, chrome_version)
+# download_crx(extension_id, output_file, chrome_version)
 print('Downloaded! Installing extension and driver manager...')
 
 options = webdriver.ChromeOptions()
